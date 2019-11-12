@@ -1,4 +1,4 @@
-# MOOS-iPX4
+# iPX4
 
 An interface between MOOS and the PX4 flight controller enabling telemetry translation and off-board control.
 
