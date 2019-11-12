@@ -27,6 +27,4 @@ target_include_directories(iPX4 PUBLIC
 target_link_libraries(iPX4
    $ENV{MOOSIVP_SOURCE_TREE_BASE}/lib/libmbutil.a
    ${MOOS_LIBRARIES}
-   boost_system
-   m
-   pthread)
+   boost_system)

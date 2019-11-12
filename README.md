@@ -7,8 +7,6 @@ The MOOS-iPX4 package requires the following dependencies to run:
 - MOOS-IvP (see below)
 - Mavlink (see below)
 - Boost [boost]
-- pThreads library [pthread]
-- C Math library [m]
 
 ### MOOS-IvP Installation
 Check if MOOS-IvP is installed (e.g. `which pAntler` should return output similar to `/usr/local/bin/pAntler`). If MOOS-IvP is already installed, skip this step.
