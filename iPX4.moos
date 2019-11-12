@@ -1,0 +1,10 @@
+//------------------------------------------------
+// iPX4 config block
+
+ProcessConfig = iPX4
+{
+ 	UDP_MODE    = False 
+        SERIAL_NAME = /dev/ttyTHS2
+	SERIAL_BAUD = 57600
+}
+

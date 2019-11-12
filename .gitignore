@@ -1,0 +1,13 @@
+# Compiled/Bytecode
+*.pyc
+
+# MACOSX files
+.DS_Store
+
+# build directory and cmake files
+/build*
+Makefile
+/CMakeFiles*
+/cmakefiles*
+CMakeCache.txt
+cmake_install.cmake
