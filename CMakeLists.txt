@@ -17,14 +17,16 @@ set(SRC
     PX4_Info.cpp)
 
 add_executable(iPX4 ${SRC})
+message("MOOS_LIBRARIES:   " ${MOOS_DIR})
+
 
 target_include_directories(iPX4 PUBLIC
     ./
-    $ENV{MOOSIVP_SOURCE_TREE_BASE}/include/ivp
+    ${MOOS_DIR}/../../../include/ivp
     $ENV{MAVLINK_HOME}/include/common
     ${MOOS_INCLUDE_DIRS})
 
 target_link_libraries(iPX4
-   $ENV{MOOSIVP_SOURCE_TREE_BASE}/lib/libmbutil.a
+   ${MOOS_DIR}/../../../lib/libmbutil.a
    ${MOOS_LIBRARIES}
    boost_system)
